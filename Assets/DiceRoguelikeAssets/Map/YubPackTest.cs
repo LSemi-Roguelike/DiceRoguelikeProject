@@ -11,7 +11,7 @@ public class YubPackTest : MonoBehaviour
 
     void Start()
     {
-        maker = new Mapmaker(10);
+        maker = new Mapmaker();
         setter = new ObjectSetter();
 
         foreach(Vector3 vector3 in maker.GetVector3s())
